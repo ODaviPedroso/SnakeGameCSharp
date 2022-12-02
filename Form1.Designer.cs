@@ -47,7 +47,6 @@
             this.PnTela.Name = "PnTela";
             this.PnTela.Size = new System.Drawing.Size(428, 428);
             this.PnTela.TabIndex = 0;
-
             // 
             // LBPontuacao
             // 
@@ -58,7 +57,6 @@
             this.LBPontuacao.TabIndex = 0;
             this.LBPontuacao.Text = "PONTOS: 0";
             this.LBPontuacao.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-
             // 
             // menuStrip2
             // 
@@ -78,7 +76,6 @@
             this.menu.Name = "menu";
             this.menu.Size = new System.Drawing.Size(50, 20);
             this.menu.Text = "Menu";
-
             // 
             // toolStripMenuItem2
             // 
@@ -110,7 +107,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Snake";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Clicado);
             this.menuStrip2.ResumeLayout(false);

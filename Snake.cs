@@ -31,9 +31,9 @@ namespace snake
 
         public void Follow()
         {
-            for(int i = Length-1; i < 0; i--)
+            for (int i = Length; i > 0; i--)
             {
-                Location[i] = Location[i-1];
+                Location[i] = Location[i - 1];
             }
         }
 
